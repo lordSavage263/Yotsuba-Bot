@@ -43,12 +43,12 @@ export default class Command extends BaseCommand {
 				}
 			}
             let text = `
-╭─「(づ￣ 3￣)づ」
+╭─「✿Elaina✿」
 │⋊ 𝕌𝕤𝕖𝕣: *${M.sender.username}*
 │⋊ ℕ𝕒𝕞𝕖: Yᴏᴛsᴜʙᴀ
 │⋊ ℙ𝕣𝕖𝕗𝕚𝕩: ${this.client.config.prefix}
 │⋊ 𝕆𝕨𝕟𝕖𝕣: *${this.client.config.prefix}mod*
-│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: http://gg.gg/Piku-and-yotsuba-support
+│⋊ *Instagram*: Follow me on Instagram as _smokey_vines_
 ╰────────────┈平和                            \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
@@ -60,9 +60,9 @@ export default class Command extends BaseCommand {
             return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `${text} 
- ──❅┈[ 𝒀𝒐𝒕𝒔𝒖𝒃𝒂 𝑩𝒐𝒕 ]┈❅───
+ ──❅┈[ *Lucy* 𝑩𝒐𝒕 ]┈❅───
 ┌────────────┈❅
-│   🧨 YᴏᴛsUʙᴀ
+│   🧨 Lucy
 │   ©️ ՏYᑎTᕼᗴՏIᘔᗴᗪ IᑎᖴIᑎITY
 └────────────┈⁂
 ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
